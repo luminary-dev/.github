@@ -1,41 +1,36 @@
 <div align="center">
 
-# Luminary
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luminary-dev/.github/main/profile/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/luminary-dev/.github/main/profile/assets/banner-light.svg" alt="Luminary — Web, Design and Motion Studio" width="100%">
+</picture>
 
-**Web, Design & Motion Studio** · Sri Lanka 🇱🇰
+<br>
 
-[luminary-dev.xyz](https://luminary-dev.xyz) · [luminary2024@gmail.com](mailto:luminary2024@gmail.com)
+[![Website](https://img.shields.io/badge/luminary--dev.xyz-visit-84cc16?style=for-the-badge&labelColor=0b0b0d)](https://luminary-dev.xyz)
+[![Email](https://img.shields.io/badge/email-luminary2024%40gmail.com-84cc16?style=for-the-badge&labelColor=0b0b0d)](mailto:luminary2024@gmail.com)
 
 </div>
 
----
+Luminary is a full-service digital studio. We design and build the web, shape brands, and set them in motion — with precision and intentional craft.
 
-## 🔦 What we're building
+## What we do
 
-### [Baas.lk — Service Hub](https://github.com/luminary-dev/service-hub)
-
-A bilingual (EN/සිං) service marketplace for Sri Lanka connecting customers with local professionals — mechanics, electricians, plumbers, garden designers and more. Built as a **microservice application**: a Next.js frontend behind an API gateway and five domain services, each with its own database.
-
-| Repository | Role |
+| | |
 | --- | --- |
-| [service-hub](https://github.com/luminary-dev/service-hub) | 🏠 Canonical monorepo — Next.js web app, docs, docker-compose, e2e suite |
-| [service-hub-api-gateway](https://github.com/luminary-dev/service-hub-api-gateway) | Public entry: routing, sessions, CSRF, rate limiting |
-| [service-hub-identity-service](https://github.com/luminary-dev/service-hub-identity-service) | Users, auth, favorites |
-| [service-hub-provider-service](https://github.com/luminary-dev/service-hub-provider-service) | Provider profiles, services, photos, verification, inquiries |
-| [service-hub-review-service](https://github.com/luminary-dev/service-hub-review-service) | Reviews & review photos |
-| [service-hub-job-service](https://github.com/luminary-dev/service-hub-job-service) | Job request board (reverse marketplace) |
-| [service-hub-notification-service](https://github.com/luminary-dev/service-hub-notification-service) | Transactional email |
+| **Web design & development** | Fast, accessible sites and products — from landing pages to full-stack applications. |
+| **Brand & graphic design** | Identity systems, brand marks and design kits that hold up everywhere. |
+| **Video & motion graphics** | Motion design and animation that gives brands life on screen. |
 
-📋 Work is tracked on the org-wide [Service Hub board](https://github.com/orgs/luminary-dev/projects/1) — new issues in any repo land there automatically.
+## Products
 
-### [MedEase](https://github.com/luminary-dev/medease)
-
-A comprehensive, cloud-based hospital management system.
-
----
+| | |
+| --- | --- |
+| **[Baas.lk](https://github.com/luminary-dev/service-hub)** | A bilingual (English / Sinhala) service marketplace for Sri Lanka — customers find trusted local professionals, professionals grow their business. |
+| **[MedEase](https://github.com/luminary-dev/medease)** | A comprehensive, cloud-based hospital management system. |
 
 <div align="center">
 
-*Crafted with light — websites, brands and motion that glow.*
+<sub>Available for projects in 2026 — <a href="https://luminary-dev.xyz">start yours</a>.</sub>
 
 </div>
