@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Luminary — Web, Design and Motion Studio">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity=".22"/>
+      <stop offset="55%" stop-color="#a3e635" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#a3e635" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"   stop-color="#f4f4f5"/>
+      <stop offset=".45" stop-color="#f4f4f5"/>
+      <stop offset=".5"  stop-color="#a3e635"/>
+      <stop offset=".55" stop-color="#f4f4f5"/>
+      <stop offset="1"   stop-color="#f4f4f5"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1200 0" to="1200 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <style>
+      .dot { fill: #a3e635; }
+      .d1 { animation: drift 7s ease-in-out infinite; }
+      .d2 { animation: drift 9s ease-in-out infinite 1.2s; }
+      .d3 { animation: drift 8s ease-in-out infinite 2.4s; }
+      .d4 { animation: drift 10s ease-in-out infinite .6s; }
+      .bar { animation: grow 3.2s cubic-bezier(0.16,1,0.3,1) infinite alternate; transform-origin: 600px 0; }
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      @keyframes drift { 0%,100% { transform: translateY(0); opacity:.35 } 50% { transform: translateY(-14px); opacity:.9 } }
+      @keyframes grow  { from { transform: scaleX(.35) } to { transform: scaleX(1) } }
+      @keyframes pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" fill="#0b0b0d"/>
+  <ellipse class="pulse" cx="600" cy="126" rx="430" ry="150" fill="url(#glow)"/>
+
+  <circle class="dot d1" cx="176" cy="88"  r="3.5"/>
+  <circle class="dot d2" cx="248" cy="182" r="2.5"/>
+  <circle class="dot d3" cx="954" cy="74"  r="3"/>
+  <circle class="dot d4" cx="1034" cy="176" r="4"/>
+  <circle class="dot d2" cx="1110" cy="108" r="2.5"/>
+  <circle class="dot d3" cx="106" cy="140" r="2.5"/>
+
+  <text x="600" y="138" text-anchor="middle" font-family="Outfit, -apple-system, 'Segoe UI', sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="url(#sheen)">Luminary</text>
+
+  <g class="bar"><rect x="510" y="162" width="180" height="3" rx="1.5" fill="#a3e635"/></g>
+
+  <text x="600" y="204" text-anchor="middle" font-family="Outfit, -apple-system, 'Segoe UI', sans-serif" font-size="21" font-weight="500" letter-spacing="4" fill="#71717a">WEB, DESIGN &amp; MOTION STUDIO</text>
+  <text x="600" y="238" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="14" fill="#a3e635">&#8250; crafted with light — Sri Lanka</text>
+</svg>
