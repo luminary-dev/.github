@@ -24,10 +24,21 @@ Luminary is a full-service digital studio. We design and build the web, shape br
 
 ## Products
 
-| | |
-| --- | --- |
-| **[Baas.lk](https://github.com/luminary-dev/service-hub)** | A bilingual (English / Sinhala) service marketplace for Sri Lanka — customers find trusted local professionals, professionals grow their business. |
-| **[MedEase](https://github.com/luminary-dev/medease)** | A comprehensive, cloud-based hospital management system. |
+| | | |
+| --- | --- | --- |
+| **[Baas.lk](https://github.com/luminary-dev/service-hub)** | Marketplace | A bilingual (English / Sinhala) service marketplace for Sri Lanka — customers find trusted local professionals, professionals grow their business. |
+| **[MedEase](https://github.com/luminary-dev/medease)** | Healthcare | A comprehensive, cloud-based hospital management system. |
+
+## Selected work
+
+| | | |
+| --- | --- | --- |
+| **[Leopard's Rest](https://luminary-yala-hotel.vercel.app/)** | Hospitality · Website | A luxury safari lodge site that sells the wild. |
+| **[Perahera Weddings](https://luminary-wedding-planner.vercel.app/)** | Weddings · Brand & Web | A wedding studio brand and site built for love stories. |
+| **[Serendib Books](https://luminary-bookshop.vercel.app/)** | Bookshop · E-Commerce | An independent Ceylon bookshop, brought online. |
+| **[Cloud Cost Optimizer](https://github.com/dhanikaa/cloud-cost-optimizer)** | Cloud · FinOps | A serverless tool that hunts down AWS waste — automatically. |
+| **[GitOps on EKS](https://github.com/dhanikaa/gitops-argocd-eks)** | Platform · GitOps | Git is the source of truth — the cluster just follows. |
+| **[DevSecOps Pipeline](https://github.com/dhanikaa/devsecops-pipeline)** | Security · CI/CD | Six security gates between a commit and production. |
 
 <div align="center">
 
