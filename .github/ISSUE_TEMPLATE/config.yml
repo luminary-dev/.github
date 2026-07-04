@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Service Hub delivery board
+    url: https://github.com/orgs/luminary-dev/projects/1
+    about: See what is planned and in progress across the platform.
+  - name: Security vulnerability
+    url: https://github.com/luminary-dev/.github/blob/main/SECURITY.md
+    about: Please report security issues privately - see the policy.

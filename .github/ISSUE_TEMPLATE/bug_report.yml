@@ -1,0 +1,41 @@
+name: Bug report
+description: Something is broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to...
+        2. Click...
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - web app
+        - api-gateway
+        - identity-service
+        - provider-service
+        - review-service
+        - job-service
+        - notification-service
+        - infra / deployment
+        - not sure
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Logs / screenshots / environment
